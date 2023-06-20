@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla';
+}
+
+body{
+    background-color: #000000;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.perfis{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 150px 100px;
+    border: none;
+    transition: border;
+}
+
+.perfis :hover{
+    border-radius: 2px;
+    border-style: solid;
+    border-color: white;
+}
+
+.perfis img{
+    width: 100%;
+}
+
+.perfis p{
+    font-size: 30px;
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+}
+

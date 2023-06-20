@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Karla';
+}
+
+body{
+    overflow-x: hidden;
+}
+
+header{
+    background-color: black;
+
+}
+.centro{
+    width: 1440px;
+    margin: 0 auto;
+}
+.menu-esquerda ul{
+    display: inline-block;
+    position: relative;
+    top: -40px;
+}
+.menu-esquerda li{
+    display: inline-block;
+    margin:0 20px;
+}
+
+.menu-esquerda a{
+    color: white;
+    font-size: 30px;
+}
+
+.menu-direita ul{
+    display: inline-block;
+    position: relative;
+    top: -70px;
+    float: right;
+}
+.menu-direita li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu-direita a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+.notificacao{
+    position: absolute;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    top: -20px;
+    border-radius: 5rem;
+}
+
+.notificacao span{
+    color: #fff;
+    font-size: 25px;
+    margin: 8px;
+}
+
+#video{
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.sobreposicao{
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 1060px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.texto-destaque{
+    position: relative;
+    z-index: 3;
+    margin-left: 4%;
+    top: 700px;
+    width: 600px;
+}
+
+.texto-destaque h2{
+    color: red;
+    font-size: 70px;
+}
+
+.texto-destaque p{
+    color: white;
+    font-size: 20px;
+}
+
+.texto-destaque a{
+    background-color:rgba(148, 148, 148, 0.5);
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding:5px 70px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+
+.lista{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.lista h3{
+    position: absolute;
+    color: white;
+}
+
+
+.filmes{
+    position: relative;
+    width: 250px;
+    height: 100px;
+    margin: 1000px 10px;
+    border: none;
+    transition: border;
+}
+
+.filmes :hover{
+    border-radius: 2px;
+    border-style: solid;
+    border-color: white;
+}
+
+.filmes img{
+    width: 250px;
+}
+
+.filmes p{
+    font-size: 30px;
+    margin-top: 15px;
+    color: black;
+    text-align: center;
+}
